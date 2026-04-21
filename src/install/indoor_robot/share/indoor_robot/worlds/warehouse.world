@@ -1,0 +1,152 @@
+<?xml version="1.0"?>
+<sdf version="1.6">
+  <world name="warehouse">
+    
+    <!-- Physics -->
+    <physics type="ode">
+      <max_step_size>0.001</max_step_size>
+      <real_time_factor>1.0</real_time_factor>
+      <real_time_update_rate>1000</real_time_update_rate>
+    </physics>
+
+    <!-- Light -->
+    <include>
+      <uri>model://sun</uri>
+    </include>
+
+    <!-- Ground -->
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+
+    <!-- Floor -->
+    <model name="warehouse_floor">
+      <static>true</static>
+      <link name="floor">
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <size>20 20</size>
+            </plane>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+
+    <!-- Walls -->
+    <model name="wall_north">
+      <static>true</static>
+      <pose>0 10 1 0 0 0</pose>
+      <link name="link">
+        <collision name="c"><geometry><box><size>20 0.2 2</size></box></geometry></collision>
+        <visual name="v"><geometry><box><size>20 0.2 2</size></box></geometry></visual>
+      </link>
+    </model>
+
+    <model name="wall_south">
+      <static>true</static>
+      <pose>0 -10 1 0 0 0</pose>
+      <link name="link">
+        <collision name="c"><geometry><box><size>20 0.2 2</size></box></geometry></collision>
+        <visual name="v"><geometry><box><size>20 0.2 2</size></box></geometry></visual>
+      </link>
+    </model>
+
+    <model name="wall_east">
+      <static>true</static>
+      <pose>10 0 1 0 0 0</pose>
+      <link name="link">
+        <collision name="c"><geometry><box><size>0.2 20 2</size></box></geometry></collision>
+        <visual name="v"><geometry><box><size>0.2 20 2</size></box></geometry></visual>
+      </link>
+    </model>
+
+    <model name="wall_west">
+      <static>true</static>
+      <pose>-10 0 1 0 0 0</pose>
+      <link name="link">
+        <collision name="c"><geometry><box><size>0.2 20 2</size></box></geometry></collision>
+        <visual name="v"><geometry><box><size>0.2 20 2</size></box></geometry></visual>
+      </link>
+    </model>
+
+    <!-- CENTRAL DIVIDER -->
+    <model name="central_divider">
+      <static>true</static>
+      <pose>0 0 1 0 0 0</pose>
+      <link name="link">
+        <collision name="c"><geometry><box><size>1 12 2</size></box></geometry></collision>
+        <visual name="v"><geometry><box><size>1 12 2</size></box></geometry></visual>
+      </link>
+    </model>
+
+    <!-- LEFT SHELVES (modified) -->
+    <model name="shelf_1">
+      <static>true</static>
+      <pose>-3 5 1 0 0 0</pose>
+      <link name="link">
+        <collision name="c"><geometry><box><size>6 1 2</size></box></geometry></collision>
+        <visual name="v"><geometry><box><size>6 1 2</size></box></geometry></visual>
+      </link>
+    </model>
+
+    <model name="shelf_2">
+      <static>true</static>
+      <pose>-5 -5 1 0 0 0</pose>
+      <link name="link">
+        <collision name="c"><geometry><box><size>6 1 2</size></box></geometry></collision>
+        <visual name="v"><geometry><box><size>6 1 2</size></box></geometry></visual>
+      </link>
+    </model>
+
+    <!-- RIGHT SHELVES (asymmetric) -->
+    <model name="shelf_3">
+      <static>true</static>
+      <pose>5 5 1 0 0 0</pose>
+      <link name="link">
+        <collision name="c"><geometry><box><size>6 1 2</size></box></geometry></collision>
+        <visual name="v"><geometry><box><size>6 1 2</size></box></geometry></visual>
+      </link>
+    </model>
+
+    <model name="shelf_4">
+      <static>true</static>
+      <pose>6 -3 1 0 0 0</pose>
+      <link name="link">
+        <collision name="c"><geometry><box><size>6 1 2</size></box></geometry></collision>
+        <visual name="v"><geometry><box><size>6 1 2</size></box></geometry></visual>
+      </link>
+    </model>
+
+    <!-- JUNCTION -->
+    <model name="junction_block">
+      <static>true</static>
+      <pose>0 3 1 0 0 0</pose>
+      <link name="link">
+        <collision name="c"><geometry><box><size>6 1 2</size></box></geometry></collision>
+        <visual name="v"><geometry><box><size>6 1 2</size></box></geometry></visual>
+      </link>
+    </model>
+
+    <!-- NARROW PASSAGE -->
+    <model name="narrow_block">
+      <static>true</static>
+      <pose>-2 0 1 0 0 0</pose>
+      <link name="link">
+        <collision name="c"><geometry><box><size>1 4 2</size></box></geometry></collision>
+        <visual name="v"><geometry><box><size>1 4 2</size></box></geometry></visual>
+      </link>
+    </model>
+
+    <!-- RANDOM OBSTACLE -->
+    <model name="box_obstacle">
+      <static>true</static>
+      <pose>2 2 0.5 0 0 0</pose>
+      <link name="link">
+        <collision name="c"><geometry><box><size>1 1 1</size></box></geometry></collision>
+        <visual name="v"><geometry><box><size>1 1 1</size></box></geometry></visual>
+      </link>
+    </model>
+
+  </world>
+</sdf>

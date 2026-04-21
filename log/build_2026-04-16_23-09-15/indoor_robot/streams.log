@@ -1,0 +1,41 @@
+[0.063s] Invoking command in '/home/chinthan/ros2_ws/build/indoor_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chinthan/turtlebot3_ws/install/turtlebot3_teleop:/home/chinthan/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/chinthan/ros2_ws/build/indoor_robot -- -j2 -l2
+[0.417s] Invoked command in '/home/chinthan/ros2_ws/build/indoor_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chinthan/turtlebot3_ws/install/turtlebot3_teleop:/home/chinthan/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/chinthan/ros2_ws/build/indoor_robot -- -j2 -l2
+[0.470s] Invoking command in '/home/chinthan/ros2_ws/build/indoor_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chinthan/turtlebot3_ws/install/turtlebot3_teleop:/home/chinthan/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/chinthan/ros2_ws/build/indoor_robot
+[0.495s] -- Install configuration: ""
+[0.498s] -- Up-to-date: /home/chinthan/ros2_ws/install/indoor_robot/share/indoor_robot//launch
+[0.499s] -- Up-to-date: /home/chinthan/ros2_ws/install/indoor_robot/share/indoor_robot//launch/slam.launch.py
+[0.499s] -- Up-to-date: /home/chinthan/ros2_ws/install/indoor_robot/share/indoor_robot//launch/navigation_simple.launch.py
+[0.499s] -- Up-to-date: /home/chinthan/ros2_ws/install/indoor_robot/share/indoor_robot//launch/gazebo.launch.py
+[0.499s] -- Up-to-date: /home/chinthan/ros2_ws/install/indoor_robot/share/indoor_robot//launch/navigation.launch.py
+[0.500s] -- Up-to-date: /home/chinthan/ros2_ws/install/indoor_robot/share/indoor_robot//worlds
+[0.502s] -- Up-to-date: /home/chinthan/ros2_ws/install/indoor_robot/share/indoor_robot//worlds/warehouse.world
+[0.504s] -- Up-to-date: /home/chinthan/ros2_ws/install/indoor_robot/share/indoor_robot//models
+[0.506s] -- Up-to-date: /home/chinthan/ros2_ws/install/indoor_robot/share/indoor_robot//models/robot.urdf.xacro
+[0.507s] -- Up-to-date: /home/chinthan/ros2_ws/install/indoor_robot/share/indoor_robot//config
+[0.508s] -- Up-to-date: /home/chinthan/ros2_ws/install/indoor_robot/share/indoor_robot//config/frames_2026-02-11_16.29.37.gv
+[0.509s] -- Up-to-date: /home/chinthan/ros2_ws/install/indoor_robot/share/indoor_robot//config/nav2_params.yaml
+[0.510s] -- Up-to-date: /home/chinthan/ros2_ws/install/indoor_robot/share/indoor_robot//config/slam_params.yaml
+[0.510s] -- Up-to-date: /home/chinthan/ros2_ws/install/indoor_robot/share/indoor_robot//config/nav2_params.yaml.save
+[0.510s] -- Up-to-date: /home/chinthan/ros2_ws/install/indoor_robot/share/indoor_robot//config/frames_2026-02-11_16.29.37.pdf
+[0.511s] -- Up-to-date: /home/chinthan/ros2_ws/install/indoor_robot/share/indoor_robot//rviz
+[0.512s] -- Up-to-date: /home/chinthan/ros2_ws/install/indoor_robot/share/indoor_robot//rviz/slam.rviz
+[0.512s] -- Up-to-date: /home/chinthan/ros2_ws/install/indoor_robot/share/indoor_robot//rviz/nav2.rviz
+[0.513s] -- Up-to-date: /home/chinthan/ros2_ws/install/indoor_robot/share/indoor_robot//maps
+[0.513s] -- Up-to-date: /home/chinthan/ros2_ws/install/indoor_robot/share/indoor_robot//maps/warehouse_map.pgm
+[0.515s] -- Up-to-date: /home/chinthan/ros2_ws/install/indoor_robot/share/indoor_robot//maps/warehouse_map.yaml
+[0.516s] -- Up-to-date: /home/chinthan/ros2_ws/install/indoor_robot/share/ament_index/resource_index/package_run_dependencies/indoor_robot
+[0.519s] -- Up-to-date: /home/chinthan/ros2_ws/install/indoor_robot/share/ament_index/resource_index/parent_prefix_path/indoor_robot
+[0.520s] -- Up-to-date: /home/chinthan/ros2_ws/install/indoor_robot/share/indoor_robot/environment/ament_prefix_path.sh
+[0.520s] -- Up-to-date: /home/chinthan/ros2_ws/install/indoor_robot/share/indoor_robot/environment/ament_prefix_path.dsv
+[0.521s] -- Up-to-date: /home/chinthan/ros2_ws/install/indoor_robot/share/indoor_robot/environment/path.sh
+[0.521s] -- Up-to-date: /home/chinthan/ros2_ws/install/indoor_robot/share/indoor_robot/environment/path.dsv
+[0.521s] -- Up-to-date: /home/chinthan/ros2_ws/install/indoor_robot/share/indoor_robot/local_setup.bash
+[0.521s] -- Up-to-date: /home/chinthan/ros2_ws/install/indoor_robot/share/indoor_robot/local_setup.sh
+[0.525s] -- Up-to-date: /home/chinthan/ros2_ws/install/indoor_robot/share/indoor_robot/local_setup.zsh
+[0.525s] -- Up-to-date: /home/chinthan/ros2_ws/install/indoor_robot/share/indoor_robot/local_setup.dsv
+[0.526s] -- Installing: /home/chinthan/ros2_ws/install/indoor_robot/share/indoor_robot/package.dsv
+[0.527s] -- Up-to-date: /home/chinthan/ros2_ws/install/indoor_robot/share/ament_index/resource_index/packages/indoor_robot
+[0.527s] -- Up-to-date: /home/chinthan/ros2_ws/install/indoor_robot/share/indoor_robot/cmake/indoor_robotConfig.cmake
+[0.528s] -- Up-to-date: /home/chinthan/ros2_ws/install/indoor_robot/share/indoor_robot/cmake/indoor_robotConfig-version.cmake
+[0.528s] -- Up-to-date: /home/chinthan/ros2_ws/install/indoor_robot/share/indoor_robot/package.xml
+[0.530s] Invoked command in '/home/chinthan/ros2_ws/build/indoor_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chinthan/turtlebot3_ws/install/turtlebot3_teleop:/home/chinthan/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/chinthan/ros2_ws/build/indoor_robot
